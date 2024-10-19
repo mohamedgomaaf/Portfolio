@@ -28,10 +28,10 @@ section.hero .icon-verified {
 }
 
 section.hero .avatar {
-  width: 88px;
-
+  width: 185px;
+  height: 185px;
   border-radius: 50%;
-  border: 1px solid darkorange;
+  border: 1px solid var(--blue);
   padding: 1px;
   box-shadow: 2px 2px 40px rgba(203, 200, 200, 0.586) inset;
 }
