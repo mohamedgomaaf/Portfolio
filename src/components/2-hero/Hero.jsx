@@ -36,7 +36,7 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <a className="icon icon-linkedin" href="https://www.linkedin.com/in/mohamedgomaa/"></a>
+          <a className="icon icon-linkedin" href="https://www.linkedin.com/in/mohamedgomaaf/"></a>
           <a className="icon icon-github" href="https://github.com/mohamedgomaaf"></a>
           {/* <div className="icon icon-twitter"></div>
           <div className="icon icon-instagram"></div> */}
