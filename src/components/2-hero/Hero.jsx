@@ -20,6 +20,7 @@ const Hero = () => {
             alt=""
           />
           <div className="icon-verified"></div>
+<<<<<<< HEAD
         </div>
 
         <motion.h1
@@ -40,6 +41,35 @@ const Hero = () => {
           <a className="icon icon-github" href="https://github.com/mohamedgomaaf"></a>
           {/* <div className="icon icon-twitter"></div>
           <div className="icon icon-instagram"></div> */}
+=======
+          <motion.h1
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            className="title"
+          >
+            Front-end Web Developer
+          </motion.h1>
+        </div>
+
+        <p className="sub-title">
+          I've worked with multiple companies, delivering outstanding results
+          while
+          <br />
+          building websites during my skill training.
+        </p>
+
+        <div className="all-icons flex">
+          <a
+            className="icon icon-linkedin"
+            href="https://www.linkedin.com/in/mohamedgomaa/"
+          ></a>
+          <a
+            className="icon icon-github"
+            href="https://github.com/mohamedgomaaf"
+            ></a>
+            <button><a href="./CV_React.pdf" download="/public/CV_React.pdf">Download Resume</a></button>
+>>>>>>> 60c599e (second commit)
         </div>
       </div>
 
