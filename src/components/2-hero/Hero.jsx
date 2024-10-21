@@ -40,13 +40,17 @@ const Hero = () => {
         <div className="all-icons flex">
           <a
             className="icon icon-linkedin"
-            href="https://www.linkedin.com/in/mohamedgomaa/"
+            href="https://www.linkedin.com/in/mohamedgomaaf/"
           ></a>
           <a
             className="icon icon-github"
             href="https://github.com/mohamedgomaaf"
-            ></a>
-            <button><a href="./CV_React.pdf" download="/public/CV_React.pdf">Download Resume</a></button>
+          ></a>
+          <button>
+            <a href="./CV_React.pdf" download="/public/CV_React.pdf">
+              Download Resume
+            </a>
+          </button>
         </div>
       </div>
 
