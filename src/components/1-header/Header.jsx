@@ -18,11 +18,7 @@ const Header = () => {
   }, [theme]);
 
   return (
-<<<<<<< HEAD
-    <header className="  flex">
-=======
     <header className="flex">
->>>>>>> 60c599e (second commit)
       <button
         onClick={() => {
           setshowModal(true);
@@ -35,25 +31,9 @@ const Header = () => {
 
       <nav>
         <ul className="flex">
-<<<<<<< HEAD
-          {/* <li>
-            <a href="">About</a>
-          </li> */}
-
-          {/* <li>
-            <a href="">Articles</a>
-          </li> */}
           <li>
             <a href="#Portfolio">Portfolio</a>
           </li>
-          {/* <li>
-            <a href="">Speaking</a>
-          </li> */}
-=======
-          <li>
-            <a href="#Portfolio">Portfolio</a>
-          </li>
->>>>>>> 60c599e (second commit)
           <li>
             <a href="#Contact">Contact</a>
           </li>
@@ -92,28 +72,11 @@ const Header = () => {
               />
             </li>
             <li>
-<<<<<<< HEAD
-              <a href="">About</a>
-            </li>
-            <li>
-              <a href="">Articles</a>
-            </li>
-            <li>
-              <a href="">Projects</a>
-            </li>
-            <li>
-              <a href="">Speaking</a>
-            </li>
-            <li>
-              <a href="">Uses</a>
-            </li>
-=======
             <a href="#Portfolio">Portfolio</a>
           </li>
           <li>
             <a href="#Contact">Contact</a>
           </li>
->>>>>>> 60c599e (second commit)
           </ul>
         </div>
       )}
