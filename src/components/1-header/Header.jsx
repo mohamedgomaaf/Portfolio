@@ -72,11 +72,15 @@ const Header = () => {
               />
             </li>
             <li>
-            <a href="#Portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
-          </li>
+              <a href="#Portfolio" onClick={() => setshowModal(false)}>
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a href="#Contact" onClick={() => setshowModal(false)}>
+                Contact
+              </a>
+            </li>
           </ul>
         </div>
       )}

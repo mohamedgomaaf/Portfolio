@@ -105,6 +105,7 @@ main section.right-section.flex {
 
 .card .box .icons {
   justify-content: space-between;
+  margin: 0 10px;
 }
 
 .card .icon-github,

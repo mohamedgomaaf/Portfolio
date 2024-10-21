@@ -71,5 +71,4 @@ export const myProjects = [
     link: "https://mohamedgomaaf.github.io/Store",
     description:"Website Store"
   },
-
 ];

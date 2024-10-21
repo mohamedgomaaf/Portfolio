@@ -135,7 +135,7 @@ button:disabled {
 
 ::-webkit-scrollbar-thumb {
   background: #888;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -143,9 +143,6 @@ button:disabled {
 }
 
 /* for Firefox */
-html {
-  scrollbar-color: #9e4673 #3d4a59;
-}
 
 .scroll2Top {
   background-color: rgba(25, 118, 210, 0.85);

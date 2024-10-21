@@ -4,11 +4,11 @@ import { myProjects } from "./myProjects";
 import { AnimatePresence, motion } from "framer-motion";
 
 const Main = () => {
-  const [currentActive, setcurrentActive] = useState("all");
+  const [currentActive, setCurrentActive] = useState("all");
   const [arr, setArr] = useState(myProjects);
 
   const handleClick = (buttonCategory) => {
-    setcurrentActive(buttonCategory);
+    setCurrentActive(buttonCategory);
 
     const newArr = myProjects.filter((item) => {
       const ZZZ = item.category.find((myItem) => {
@@ -26,7 +26,7 @@ const Main = () => {
       <section className="flex  left-section">
         <button
           onClick={() => {
-            setcurrentActive("all");
+            setCurrentActive("all");
             setArr(myProjects);
           }}
           className={currentActive === "all" ? "active" : null}
@@ -77,23 +77,29 @@ const Main = () => {
 
                 <div style={{ width: "266px" }} className="box">
                   <h1 className="title">{item.projectTitle}</h1>
-                  <p className="sub-title">
-                    {item.description}
-                  </p>
+                  <p className="sub-title">{item.description}</p>
 
                   <div className="flex icons">
-                    <div style={{ gap: "11px" }} className="flex">
-                      <a href={item.link} className="icon-link" target={item.link === "#" ? "_self" : "_blank"} ></a>
-                      <a href={item.github} className="icon-github" target={item.github === "#" ? "_self" : "_blank"}></a>
-                    </div>
-
+                    {/* <div style={{ gap: "11px" }} className="flex"> */}
+                    <a
+                      href={item.github}
+                      className="icon-github"
+                      target={item.github === "#" ? "_self" : "_blank"}
+                    ></a>
+                      <a
+                        href={item.link}
+                        className="icon-link"
+                        target={item.link === "#" ? "_self" : "_blank"}
+                      ></a>
+                    {/* </div> */}
+{/* 
                     <a className="link flex" href="">
                       more
                       <span
                         style={{ alignSelf: "end" }}
                         className="icon-arrow-right"
                       ></span>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </motion.article>
