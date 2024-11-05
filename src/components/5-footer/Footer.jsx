@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul> */}
 
-      <p>Designed and developed by Ali Hassan © 2024.</p>
+      <p>Developed by Mohamed Gomaa © 2024.</p>
     </footer>
   );
 };
