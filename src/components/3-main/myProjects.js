@@ -10,6 +10,14 @@ export const myProjects = [
   {
     projectTitle: "react project",
     category: ["react"],
+    imgPath: "./images/doctor_react.jpg",
+    github: "#",
+    link: "https://doctor-appointment-booking-system-rho.vercel.app/",
+    description:"Amazon Clone"
+  },
+  {
+    projectTitle: "react project",
+    category: ["react"],
     imgPath: "./images/2.jpg",
     github: "https://github.com/mohamedgomaaf/amazon-clone",
     link: "#",

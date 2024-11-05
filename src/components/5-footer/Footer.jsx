@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul> */}
 
-      <p>© 2024 Mohamed Gomaa. All rights reserved.</p>
+      <p>Designed and developed by Ali Hassan © 2024.</p>
     </footer>
   );
 };
