@@ -23,7 +23,7 @@ const Main = () => {
 
   return (
     <main className="flex">
-      <section className="flex  left-section">
+      <section className="flex left-section">
         <button
           onClick={() => {
             setCurrentActive("all");
@@ -33,16 +33,14 @@ const Main = () => {
         >
           all projects
         </button>
-
         <button
           onClick={() => {
-            handleClick("css");
+            handleClick("react");
           }}
-          className={currentActive === "css" ? "active" : null}
+          className={currentActive === "react" ? "active" : null}
         >
-          HTML & CSS
+          React
         </button>
-
         <button
           onClick={() => {
             handleClick("js");
@@ -53,11 +51,11 @@ const Main = () => {
         </button>
         <button
           onClick={() => {
-            handleClick("react");
+            handleClick("css");
           }}
-          className={currentActive === "react" ? "active" : null}
+          className={currentActive === "css" ? "active" : null}
         >
-          React
+          HTML & CSS
         </button>
       </section>
 
@@ -71,7 +69,7 @@ const Main = () => {
                 animate={{ transform: "scale(1)" }}
                 transition={{ type: "spring", damping: 8, stiffness: 50 }}
                 key={item.imgPath}
-                className="  card"
+                className="card"
               >
                 <img width={266} src={item.imgPath} alt="" />
 

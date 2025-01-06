@@ -1,38 +1,40 @@
 export const myProjects = [
+  //React projects
   {
-    projectTitle: "react project",
+    projectTitle: "Booking System",
+    category: ["react"],
+    imgPath: "./images/doctor_react.jpg",
+    github: "https://github.com/mohamedgomaaf/Doctor-Appointment-Booking-System",
+    link: "https://doctor-appointment-booking-system-rho.vercel.app/",
+    description:" Website Doctor Appointment Booking System"
+  },
+  {
+    projectTitle: "Landing Page",
     category: ["react"],
     imgPath: "./images/1.jpg",
     github: "https://github.com/mohamedgomaaf/landing-page-with-react",
     link: "https://landing-page-with-react-henna.vercel.app/",
-    description:"Website MEXANT"
+    description:"Website MEXANT Landing Page"
   },
   {
-    projectTitle: "react project",
-    category: ["react"],
-    imgPath: "./images/doctor_react.jpg",
-    github: "#",
-    link: "https://doctor-appointment-booking-system-rho.vercel.app/",
-    description:"Amazon Clone"
-  },
-  {
-    projectTitle: "react project",
+    projectTitle: "Amazon Clone",
     category: ["react"],
     imgPath: "./images/2.jpg",
     github: "https://github.com/mohamedgomaaf/amazon-clone",
     link: "#",
-    description:"Amazon Clone"
+    description:"Amazon Clone with React"
   },
+  //JavaScript projects
   {
-    projectTitle: "JavaScript project",
+    projectTitle: "Special Design",
     category: ["js"],
     imgPath: "./images/6.jpg",
-    github: "https://github.com/mohamedgomaaf/Special_Design",
-    link: "https://mohamedgomaaf.github.io/Special_Design/",
-    description:"Website Template 3"
+    github: "https://github.com/mohamedgomaaf/Special-Design-Javascript",
+    link: "https://mohamedgomaaf.github.io/Special-Design-Javascript/",
+    description:"Website Special Design"
   },
   {
-    projectTitle: "JavaScript project",
+    projectTitle: "Book Store NTI Project",
     category: ["js"],
     imgPath: "./images/8.jpg",
     github: "https://github.com/mohamedgomaaf/Book_Store_NTI_Project",
@@ -40,39 +42,40 @@ export const myProjects = [
     description:"Website Book Store NTI Project"
   },
   {
-    projectTitle: "JavaScript project",
+    projectTitle: "Book Store HTI Project",
     category: ["js"],
     imgPath: "./images/9.jpg",
-    github: "https://github.com/mohamedgomaaf/Book_Store",
+    github: "https://github.com/mohamedgomaaf/Book-Store-HTI-Project",
     link: "#",
-    description:"Website Book Store (HTML, CSS, JS, PHP, SQL)"
-  },
+    description:"Website Book Store (HTML, CSS, JS, PHP, MYSQL)"
+  },  
+  //HTML & CSS projects
   {
-    projectTitle: "html & css project",
+    projectTitle: "HTML & CSS Project",
     category: ["html", "css"],
     imgPath: "./images/3.jpg",
-    github: "https://github.com/mohamedgomaaf/Template_1",
-    link: "https://mohamedgomaaf.github.io/Template_1/",
+    github: "https://github.com/mohamedgomaaf/Template-1-HTML-CSS",
+    link: "https://mohamedgomaaf.github.io/Template-1-HTML-CSS/",
     description:"Website Template 1"
   },
   {
-    projectTitle: "html & css project",
+    projectTitle: "HTML & CSS Project",
     category: ["html", "css"],
     imgPath: "./images/4.jpg",
-    github: "https://github.com/mohamedgomaaf/Template_2",
-    link: "https://mohamedgomaaf.github.io/Template_2/",
+    github: "https://github.com/mohamedgomaaf/Template-2-HTML-CSS",
+    link: "https://mohamedgomaaf.github.io/Template-2-HTML-CSS/",
     description:"Website Template 2"
   },
   {
-    projectTitle: "html & css project",
+    projectTitle: "HTML & CSS Project",
     category: ["html", "css"],
     imgPath: "./images/5.jpg",
-    github: "https://github.com/mohamedgomaaf/Template_3",
-    link: "https://mohamedgomaaf.github.io/Template_3/",
+    github: "https://github.com/mohamedgomaaf/Template-3-HTML-CSS",
+    link: "https://mohamedgomaaf.github.io/Template-3-HTML-CSS/",
     description:"Website Template 3"
   },
   {
-    projectTitle: "html & css project",
+    projectTitle: "HTML & CSS Project",
     category: ["html", "css"],
     imgPath: "./images/7.png",
     github: "https://github.com/mohamedgomaaf/Store",

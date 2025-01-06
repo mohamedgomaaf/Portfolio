@@ -24,7 +24,7 @@ section.hero .icon-verified {
 }
 
 section.hero .avatar {
-  width: 175px;
+  width: 200px;
   height: 194px;
   border-radius: 21%;
   border: 1px solid var(--blue);
@@ -80,6 +80,10 @@ section.hero .animation {
   section.hero .parent-avatar.flex {
     flex-wrap: wrap;
     justify-content: center;
+  }
+  section.hero .avatar {
+    width: 175px;
+    height: 194px;
   }
 }
 

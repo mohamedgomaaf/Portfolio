@@ -131,7 +131,7 @@ main section.right-section.flex {
   3- Responsive Design (media query)
 ======================================== */
 
-@media (max-width: 600px) {
+@media (max-width: 1177px) {
   main.flex {
     flex-direction: column;
     gap: 2.64rem;

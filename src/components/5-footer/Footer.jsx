@@ -18,7 +18,7 @@ const Footer = () => {
         </li>
       </ul> */}
 
-      <p>Developed by Mohamed Gomaa © 2024.</p>
+      <p>Developed by Mohamed Gomaa © 2025.</p>
     </footer>
   );
 };
