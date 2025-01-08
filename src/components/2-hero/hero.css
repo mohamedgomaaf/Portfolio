@@ -71,9 +71,6 @@ section.hero .animation {
 }
 
 @media (max-width: 1250px) {
-  section.hero {
-    margin: 3rem;
-  }
   section.hero .animation {
     display: none;
   }
@@ -90,6 +87,9 @@ section.hero .animation {
   section.hero .avatar {
     width: 175px;
     height: 194px;
+  }
+  section.hero {
+    margin: 3rem;
   }
 }
 
