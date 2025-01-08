@@ -52,7 +52,7 @@ section.hero .all-icons {
   gap: 1.5rem;
   color: var(--subtitle);
   flex-wrap: wrap;
-  
+
 }
 
 section.hero .all-icons .icon:hover {
@@ -71,11 +71,15 @@ section.hero .animation {
 }
 
 @media (max-width: 1250px) {
+  section.hero {
+    margin: 3rem;
+  }
   section.hero .animation {
     display: none;
   }
   section.hero h1.title {
-    margin: 24px 0;
+    margin-top: 24px;
+    font-size: xx-large;
   }
 }
 @media (max-width: 1250px) {
