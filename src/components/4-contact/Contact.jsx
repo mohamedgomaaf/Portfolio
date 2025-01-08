@@ -31,11 +31,11 @@ const Contact = () => {
         <span className="icon-envelope"> </span>
         Contact us
       </h1>
-      <p className="sub-title">
+      {/* <p className="sub-title">
         Contact us for more information and Get notified when I publish
         something new.<br />
-      </p>
-      <div style={{ justifyContent: "space-between" }} className="flex">
+      </p> */}
+      <div style={{ justifyContent: "space-between" }} className="flex contact-u-content">
         <form onSubmit={(e) => {
           handleSubmit(e);
           sendEmail(e);

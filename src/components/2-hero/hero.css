@@ -51,6 +51,8 @@ section.hero .all-icons {
   font-size: 1.3rem;
   gap: 1.5rem;
   color: var(--subtitle);
+  flex-wrap: wrap;
+  
 }
 
 section.hero .all-icons .icon:hover {

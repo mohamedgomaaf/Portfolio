@@ -32,9 +32,8 @@ const Hero = () => {
 
         <p className="sub-title">
           I've worked with multiple companies, delivering outstanding results
-          while
           <br />
-          building websites during my skill training.
+          while building websites during my skill training.
         </p>
 
         <div className="all-icons flex">
@@ -46,7 +45,19 @@ const Hero = () => {
             className="icon icon-github"
             href="https://github.com/mohamedgomaaf"
           ></a>
-          <button>
+          <a
+            className="icon icon-envelope"
+            href="mailto:mohamedgomaafathi@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          <a
+            className="icon icon-phone"
+            href="tel:+201140325277"
+            target="_blank"
+            rel="noopener noreferrer"
+          ></a>
+          <button className="btn_download">
             <a
               href="./MohamedGomaa-FrontendCV.pdf"
               download="/public/MohamedGomaa-FrontendCV.pdf"
