@@ -47,7 +47,10 @@ const Hero = () => {
             href="https://github.com/mohamedgomaaf"
           ></a>
           <button>
-            <a href="./CV_React.pdf" download="/public/CV_React.pdf">
+            <a
+              href="./CV_React.pdf"
+              download="/public/MohamedGomaa-FrontendCV.pdf"
+            >
               Download Resume
             </a>
           </button>
