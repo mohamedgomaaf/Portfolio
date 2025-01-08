@@ -48,7 +48,7 @@ const Hero = () => {
           ></a>
           <button>
             <a
-              href="./CV_React.pdf"
+              href="./MohamedGomaa-FrontendCV.pdf"
               download="/public/MohamedGomaa-FrontendCV.pdf"
             >
               Download Resume
