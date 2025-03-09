@@ -37,8 +37,8 @@ export const myProjects = [
     projectTitle: "Book Store NTI Project",
     category: ["js"],
     imgPath: "./images/8.jpg",
-    github: "https://github.com/mohamedgomaaf/Book_Store_NTI_Project",
-    link: "https://mohamedgomaaf.github.io/Book_Store_NTI_Project/",
+    github: "https://github.com/mohamedgomaaf/Book-Store-NTI-Project",
+    link: "https://mohamedgomaaf.github.io/Book-Store-NTI-Project/",
     description:"Website Book Store NTI Project"
   },
   {
@@ -78,8 +78,8 @@ export const myProjects = [
     projectTitle: "HTML & CSS Project",
     category: ["html", "css"],
     imgPath: "./images/7.png",
-    github: "https://github.com/mohamedgomaaf/Store",
-    link: "https://mohamedgomaaf.github.io/Store",
+    github: "https://github.com/mohamedgomaaf/Store-HTI-Project",
+    link: "https://mohamedgomaaf.github.io/Store-HTI-Project/",
     description:"Website Store"
   },
 ];
