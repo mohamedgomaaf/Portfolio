@@ -18,7 +18,11 @@ const Footer = () => {
         </li>
       </ul> */}
 
-      <p>Developed by Mohamed Gomaa © 2025.</p>
+      <p>
+        Developed by 
+        <a href="https://www.linkedin.com/in/mohamedgomaaf/"> Mohamed Gomaa</a> ©
+        2025.
+      </p>
     </footer>
   );
 };
